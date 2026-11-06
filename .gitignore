@@ -1,0 +1,20 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Generated visual exports and numerical caches
+Figures/
+outputs/reproducible_figures/cache/
+outputs/forward_cache_v2/
+*.tif
+*.tiff
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

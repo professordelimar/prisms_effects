@@ -1,0 +1,25 @@
+{
+  "crs": "SYNTHETIC_LOCAL_CARTESIAN_METRES",
+  "bouguer_observations_csv": "synthetic_observed_bouguer.csv",
+  "topography_csv": "synthetic_topography.csv",
+  "moho_csv": "synthetic_moho.csv",
+  "bbox_m": [
+    1500,
+    8500,
+    1500,
+    8500
+  ],
+  "horizontal_spacing_m": 1750,
+  "topography_input": "elevation_up_m",
+  "moho_input": "depth_down_m",
+  "interpolation": "linear",
+  "density_contrasts_kgm3": [
+    320.0
+  ],
+  "layer_fractions": [
+    0.0,
+    1.0
+  ],
+  "regional_model_justification": "SYNTHETIC SOFTWARE DEMONSTRATION ONLY, not a physically justified Marajo regional model.",
+  "output_directory": "../outputs/example_import"
+}

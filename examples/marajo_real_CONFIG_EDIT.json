@@ -1,0 +1,15 @@
+{
+  "crs": "FILL_EPSG_PROJECTED_METRES",
+  "bouguer_observations_csv": "FILL_actual_bouguer.csv",
+  "topography_csv": "FILL_actual_topography.csv",
+  "moho_csv": "FILL_actual_moho.csv",
+  "bbox_m": [0, 10000, 0, 10000],
+  "horizontal_spacing_m": 2000,
+  "topography_input": "elevation_up_m",
+  "moho_input": "depth_down_m",
+  "interpolation": "linear",
+  "density_contrasts_kgm3": [300],
+  "layer_fractions": [0, 1],
+  "regional_model_justification": "FILL: specify geological source volumes removed from observed Bouguer; document reference and density",
+  "output_directory": "../outputs/real_marajo"
+}

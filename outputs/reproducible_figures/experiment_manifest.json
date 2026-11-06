@@ -1,0 +1,208 @@
+{
+  "experiment": "Finite-footprint synthetic regional gravity using bilinear package surfaces",
+  "not_real_data": true,
+  "b_origin": "Gref plus two stated synthetic local bodies",
+  "reference": "Independent composite x-y Gauss Legendre / analytic z integration",
+  "original_bouguer_file_not_used": true,
+  "continuous_reference_is_numerical_approximation": true,
+  "source_top_depth": "negative of tabulated elevation-up in synthetic_topography.csv",
+  "source_base_depth": "tabulated depth-down in synthetic_moho.csv",
+  "station_z_m": -500.0,
+  "map_grid_shape": [
+    101,
+    101
+  ],
+  "model_parameters": {
+    "full_run": true,
+    "plot_n": 101,
+    "seed": 431,
+    "rho_kg_m3": 320.0,
+    "obs_z_m": -500.0,
+    "regional_tile_m": 250.0,
+    "reference_quadrature_order": 2,
+    "ensemble_per_geometry": 7
+  },
+  "scientific_colormap": "Crameri roma_r",
+  "ensemble_member_count": 21,
+  "local_residual_prisms": [
+    [
+      -1900.0,
+      -500.0,
+      -1900.0,
+      -450.0,
+      300.0,
+      1700.0,
+      450.0
+    ],
+    [
+      1100.0,
+      2500.0,
+      600.0,
+      2000.0,
+      550.0,
+      1600.0,
+      -280.0
+    ]
+  ],
+  "comparison_spacing_m": 875.0,
+  "meaning_figure5c": "distribution of whole-map RMSE across geometry realizations",
+  "meaning_figure5d": "RMS gravity response to Moho depth perturbation in metres",
+  "meaning_figure5e": "RMS gravity response to density contrast in kg/m^3",
+  "quadrature_refinement": [
+    {
+      "tile_coarse_m": 1000.0,
+      "tile_fine_m": 500.0,
+      "rmse_change_mGal": 0.09612573625079454,
+      "max_abs_change_mGal": 0.14602469691219966
+    },
+    {
+      "tile_coarse_m": 500.0,
+      "tile_fine_m": 250.0,
+      "rmse_change_mGal": 0.003610503592936635,
+      "max_abs_change_mGal": 0.007535267012968916
+    },
+    {
+      "tile_coarse_m": 250.0,
+      "tile_fine_m": 125.0,
+      "rmse_change_mGal": 1.083820576885275e-05,
+      "max_abs_change_mGal": 3.452220735766787e-05
+    }
+  ],
+  "quadrature_verification_tolerance_mGal": 5e-05,
+  "quadrature_verification_measured_mGal": 3.452220735766787e-05,
+  "quadrature_verification_station_count": 121,
+  "mesh_integrity_verification": [
+    {
+      "geometry": "quadrangular",
+      "spacing_m": 1750.0,
+      "realization": 0,
+      "cells": 49,
+      "coverage_mismatch": 0.0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "geometry": "hexagonal",
+      "spacing_m": 1750.0,
+      "realization": 0,
+      "cells": 52,
+      "coverage_mismatch": 1.017277520789181e-16,
+      "overlap_fraction": -1.4901161193847657e-16
+    },
+    {
+      "geometry": "voronoi",
+      "spacing_m": 1750.0,
+      "realization": 0,
+      "cells": 36,
+      "coverage_mismatch": 9.145297874616426e-18,
+      "overlap_fraction": 1.4901161193847657e-16
+    },
+    {
+      "geometry": "quadrangular",
+      "spacing_m": 875.0,
+      "realization": 0,
+      "cells": 144,
+      "coverage_mismatch": 0.0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "geometry": "hexagonal",
+      "spacing_m": 875.0,
+      "realization": 0,
+      "cells": 180,
+      "coverage_mismatch": 1.8545975644244943e-16,
+      "overlap_fraction": 1.043081283569336e-15
+    },
+    {
+      "geometry": "voronoi",
+      "spacing_m": 875.0,
+      "realization": 0,
+      "cells": 121,
+      "coverage_mismatch": 2.7072215470970044e-18,
+      "overlap_fraction": 1.4901161193847657e-16
+    },
+    {
+      "geometry": "quadrangular",
+      "spacing_m": 437.5,
+      "realization": 0,
+      "cells": 576,
+      "coverage_mismatch": 0.0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "geometry": "hexagonal",
+      "spacing_m": 437.5,
+      "realization": 0,
+      "cells": 658,
+      "coverage_mismatch": 3.453777288668978e-16,
+      "overlap_fraction": 8.940696716308593e-16
+    },
+    {
+      "geometry": "voronoi",
+      "spacing_m": 437.5,
+      "realization": 0,
+      "cells": 529,
+      "coverage_mismatch": 1.973746287669581e-18,
+      "overlap_fraction": 0.0
+    },
+    {
+      "geometry": "quadrangular",
+      "spacing_m": 750.0,
+      "realization": 0,
+      "cells": 196,
+      "coverage_mismatch": 0.0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "geometry": "hexagonal",
+      "spacing_m": 750.0,
+      "realization": 0,
+      "cells": 238,
+      "coverage_mismatch": 1.8573495328612559e-16,
+      "overlap_fraction": -3.427267074584961e-15
+    },
+    {
+      "geometry": "voronoi",
+      "spacing_m": 750.0,
+      "realization": 0,
+      "cells": 169,
+      "coverage_mismatch": 2.5202261868590976e-18,
+      "overlap_fraction": -2.9802322387695313e-16
+    }
+  ],
+  "benchmark_timing": "fresh median of 3 forward evaluations per case on the active machine",
+  "figure_files": [
+    "figure1a",
+    "figure1b",
+    "figure1c",
+    "figure1d",
+    "figure2a",
+    "figure2b",
+    "figure2c",
+    "figure3a",
+    "figure3b",
+    "figure3c",
+    "figure4a",
+    "figure4b",
+    "figure4c",
+    "figure4d",
+    "figure4e",
+    "figure4f",
+    "figure5a",
+    "figure5b",
+    "figure5c",
+    "figure5d",
+    "figure5e",
+    "figureS1a",
+    "figureS1b",
+    "figureS1c"
+  ],
+  "notebook_limitations": [
+    "Quadrature was checked at 121 validation stations, not mathematically bounded at every point",
+    "Reference quad convergence should be reassessed after changing source geometry",
+    "Synthetic source is finite horizontally, not a global Moho model",
+    "No field observations are analyzed and no geological interpretation is inferred",
+    "Figures 5d and 5e are separate finite-difference parameter studies, not uncertainty distributions",
+    "The provided manuscript captions and tables must be revised to reflect this experiment",
+    "DPI measures export resolution; observation resolution is PLOT_N squared"
+  ]
+}

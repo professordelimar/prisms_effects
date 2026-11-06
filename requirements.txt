@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+matplotlib
+shapely
+cmcrameri
+nbformat
+notebook
+jupyterlab
